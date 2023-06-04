@@ -1,7 +1,6 @@
 import turtle as t
 import random as r
 
-#기본 설정
 t.speed(-1)
 t.screensize(10,10 ,'black')
 
@@ -81,7 +80,6 @@ def r_heart(a):
     else:
         heart(a)
 
-#지피티한테 물어보면 색 뽑아준다
 red_color_list = [
     "red",
     "darkred",
